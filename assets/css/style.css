@@ -1,0 +1,57 @@
+/* style on various texts */
+h1 {
+    font-size: 34px;
+}
+h3 {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.tools {
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 10px;
+}
+#myBio {
+    font-size: 20px;
+}
+.my-url,
+.portfolio-img {
+    margin-bottom: 10px;
+}
+.portfolio {
+    text-align: center;
+}
+/* style on various flex boxes */
+.container{
+    background-image: url("../images/background.jpg");  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 10px;
+      
+    height: 100%; 
+    min-height: 100vh; 
+}
+.jumbotron{
+    margin-bottom: 10px;
+    border: 2px solid white;
+}
+.card {
+    border: 1px solid rgb(73, 36, 167);
+}
+.card-header {
+ background-color: rgb(73, 36, 167);
+ color: white;
+ font-weight: bold;
+}
+.col-md-8,
+.col-md-2 {
+    padding-left:30px;
+}
+/* style on table elements */
+#portfolio-table td {
+    display: inline-block;
+    width: 50%;
+    padding: 20px;
+}
